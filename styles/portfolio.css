@@ -79,7 +79,6 @@ line-height: 80px;
 
 .content h3 {
     font-size: 24px;
-    font-family: var(--default-font-family);
     line-height: 1.5;
 }
 
@@ -186,7 +185,11 @@ nav li.active a {
      padding: 0;
     }
 
+     .content h1 {
+         font-size: 35px;
+    }
+
     nav a {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
