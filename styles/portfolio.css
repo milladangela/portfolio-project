@@ -137,6 +137,7 @@ nav li {
 
 
 nav a {
+ font-family: var(--heading-font-family);
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
