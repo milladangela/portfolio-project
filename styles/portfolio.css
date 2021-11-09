@@ -18,12 +18,12 @@ h4,
 h5, 
 h6 {
     font-family: var(--heading-font-family);
+        color:#2D2358;
 }
 
 h1 {
     font-size: 96px;
     line-height: 1.5;
-    color: #272044;
 
     
 }
@@ -39,7 +39,16 @@ h3 {
 p {
         font-size: 16px;
         line-height: 30px;
-        font-weight: 300;
+        font-weight: 300;        
+        color:#2D2358;
+        opacity: 60%;
+
+}
+p a {
+    color: var(--branding-color);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none ;
 }
 .hero {
     background:var(--secondary-color);
@@ -51,7 +60,6 @@ p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    color: #272044;
     opacity: 60%;
 }
 
@@ -60,8 +68,17 @@ p {
     font-size: 24px;
     font-weight: 300;
     line-height: 1.5;
-    color: #272044;
     opacity: 60%;
+}
+
+.cat {
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    transition: transform 2s ease-in-out;
+    transform: translateY(30px);
+    animation: move-up-down 2s ease-in-out infinite;
 }
 
 .content-container {
@@ -139,7 +156,7 @@ nav li {
 nav a {
  font-family: var(--heading-font-family);
   text-decoration: none;
-  color: #272142;
+        color:#2D2358;
   transition: all 100ms ease-in-out;
 }
 
@@ -155,6 +172,7 @@ footer a {
     text-decoration: none;
     color: var(--branding-color);
 }
+
 
 footer .contact-box {
     background-color: var(--secondary-color);
@@ -183,7 +201,7 @@ footer .social-links a:hover {
 
 footer .email-link {
     text-decoration: none;
-    color: #272044;
+        color:#2D2358;
     font-size: 24px;
 }
 footer .email-link:hover {
@@ -202,6 +220,8 @@ footer .email-link:hover {
 h4 {
     font-size: 28px;
 }
+
+
 
 .hero p {
     font-size: 25px;
