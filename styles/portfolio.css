@@ -1,6 +1,6 @@
 :root {
-    --branding-color: red;
-    --secondary-color: rgb(249, 249, 249);
+    --branding-color: rgb(255, 53, 83);
+    --secondary-color: rgb(247, 247, 247);
     --heading-font-family: 'Anton', sans-serif;
     --default-font-family: 'Poppins', sans-serif;
 
@@ -193,7 +193,7 @@ nav li {
 nav a {
  font-family: var(--heading-font-family);
   text-decoration: none;
-        color:#2D2358;
+        color:black;
   transition: all 100ms ease-in-out;
 }
 
